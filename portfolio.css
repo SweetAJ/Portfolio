@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.navbar {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    padding: 10px 20px;
+}
+
+   
+.navitems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    color: white;
+}
+a {
+    color: white;
+}
+.navitems li {
+    list-style: none;
+}
+.navitems li a {
+    text-decoration: none;
+}
+    
+.logo {
+    padding: 5px;
+    }
+
+.lettering {
+    padding-top: 10px;
+    padding-left: 5px;
+    float: inline-end;
+    
+}    
+button {
+    background-color: rgb(243, 132, 150);
+    border-radius: 20px;
+    padding: 15px;
+    border: none;
+}
+img {
+    border-radius: 50%;
+}
+.picture {
+    margin-top: 50px;
+    border-left: 20px;
+    padding: 20px; 
+}
+.home {
+    display: flex;  
+    align-items: center; 
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+.section1 {
+   background-color: pink;
+   border-radius: 20px;
+   padding: 20px;
+   margin-top: 50px;
+   border: 4px solid black;
+   width: 60%;
+}
+.section1 p {
+    margin-top: 15px;
+}
+
+.aboutme {
+    background-color: rgb(249, 170, 229);
+    margin: 50px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 4px solid black;
+
+}
+.background li,
+.codeback li {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.aboutme h3 {
+    margin-bottom: 15px;
+}
+.portfolio {
+    background-color: palevioletred;
+    padding: 20px;
+    margin: 20px 50px;
+    border-radius: 20px;
+    border: 4px solid black;
+
+}
+.portfolio h3 {
+    margin-top: 20px;
+}
+.projects li {
+    margin-top: 20px;
+}
+.contact {
+    background-color: pink;
+    margin: 120px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 4px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.details {
+    display: flex;
+    flex-direction: column;
+}
+
+.details input {
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 8px 0;
+}
+.descript {
+    padding: 20px;
+}
+.accounts a {
+    margin-right: 30px;
+}
+.accounts h3 {
+    margin-top: 30px;
+}
+.btn {
+    background-color: green;
+    margin: 20px;
+}
